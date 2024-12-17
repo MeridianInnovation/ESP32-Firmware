@@ -7,7 +7,7 @@ firmware_images_url = "https://meridianinnovation.github.io/ESP32-Firmware/image
 # The launch pad UI will automatically show these Apps in the available apps dropdown
 # There should be a config section per listed App
 supported_apps = ["Fire-Hazard-Detector-Firmware-181-OctalPSRAM",
-                  "Fire-Hazard-Detector-Firmware-181-QuadPSRAM"，
+                  "Fire-Hazard-Detector-Firmware-181-QuadPSRAM",
                   "SenXorESP32S3-R225"]
 
 
