@@ -6,8 +6,8 @@ firmware_images_url = "https://meridianinnovation.github.io/ESP32-Firmware/image
 # Apps that you support and for which the binaries are available to publish. You can have multiple apps as a comma separated list
 # The launch pad UI will automatically show these Apps in the available apps dropdown
 # There should be a config section per listed App
-supported_apps = ["Fire Hazard Detector Firmware 1.81 (Octal PSRAM)",
-                  "Fire Hazard Detector Firmware 1.81 (Quad PSRAM)"  ]
+supported_apps = ["Fire-Hazard-Detector-Firmware-181-OctalPSRAM",
+                  "Fire-Hazard-Detector-Firmware-181-QuadPSRAM"  ]
 
 
 [Fire-Hazard-Detector-Firmware-181-OctalPSRAM]
@@ -15,13 +15,9 @@ supported_apps = ["Fire Hazard Detector Firmware 1.81 (Octal PSRAM)",
 chipsets = ["ESP32S3"]
 # Configure the name of the binary file
 image.esp32s3 = "FireHazardDetector/FireHazardDetectorFW_V1_81_OPSRAM.bin"
-# Optional: A brief introduction to this app.
-description = "Fire Hazard Detector Firmware v1.81. This firmware is for Octal PSRAM only."
 
 [Fire-Hazard-Detector-Firmware-181-QuadPSRAM]
 # ESP32 Chipsets for which you have a supported Firmware App. Define a property for each supported chipset in the given format.
 chipsets = ["ESP32S3"]
 # Configure the name of the binary file
 image.esp32s3 = "FireHazardDetector/FireHazardDetectorFW_V1_81_QPSRAM.bin"
-# Optional: A brief introduction to this app.
-description = "Fire Hazard Detector Firmware v1.81. This firmware is for Octal PSRAM only."
