@@ -12,7 +12,7 @@ supported_apps = ["Fire Hazard Detector Firmware 1.81 (Octal PSRAM)",
 
 [Fire-Hazard-Detector-Firmware-181-OctalPSRAM]
 # ESP32 Chipsets for which you have a supported Firmware App. Define a property for each supported chipset in the given format.
-chipsets = ["ESP32-S3"]
+chipsets = ["ESP32S3"]
 # Configure the name of the binary file
 image.esp32-s3 = "FireHazardDetector/FireHazardDetectorFW_V1_81_OPSRAM.bin"
 # Optional: A brief introduction to this app.
@@ -20,7 +20,7 @@ description = "Fire Hazard Detector Firmware v1.81. This firmware is for Octal P
 
 [Fire-Hazard-Detector-Firmware-181-QuadPSRAM]
 # ESP32 Chipsets for which you have a supported Firmware App. Define a property for each supported chipset in the given format.
-chipsets = ["ESP32-S3"]
+chipsets = ["ESP32S3"]
 # Configure the name of the binary file
 image.esp32-s3 = "FireHazardDetector/FireHazardDetectorFW_V1_81_QPSRAM.bin"
 # Optional: A brief introduction to this app.
