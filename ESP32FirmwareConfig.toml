@@ -25,6 +25,6 @@ image.esp32s3 = "FireHazardDetector/FireHazardDetectorFW_V1_81_QPSRAM.bin"
 
 [SenXorESP32S3-R225]
 # ESP32 Chipsets for which you have a supported Firmware App. Define a property for each supported chipset in the given format.
-chipsets = ["SenXorESP32S3-R225"]
+chipsets = ["ESP32S3"]
 # Configure the name of the binary file
 image.esp32s3 = "TCP_Demo/senxorESP32S3_R2_25.bin"
