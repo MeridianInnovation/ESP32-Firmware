@@ -9,10 +9,6 @@ firmware_images_url = "https://meridianinnovation.github.io/ESP32-Firmware/image
 supported_apps = ["Fire Hazard Detector Firmware 1.81 (Octal PSRAM)",
                   "Fire Hazard Detector Firmware 1.81 (Quad PSRAM)"  ]
 
-# Optional: This should be a publicly accessible URL of the application configuration markdown file
-# The markdown file will display the application configuration.
-# It might include details such as the revisions of esp-idf, esp-matter, etc. or any other application configuration
-config_readme_url = ""
 
 [Fire-Hazard-Detector-Firmware-181-OctalPSRAM]
 # ESP32 Chipsets for which you have a supported Firmware App. Define a property for each supported chipset in the given format.
