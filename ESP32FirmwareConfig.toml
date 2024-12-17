@@ -7,7 +7,8 @@ firmware_images_url = "https://meridianinnovation.github.io/ESP32-Firmware/image
 # The launch pad UI will automatically show these Apps in the available apps dropdown
 # There should be a config section per listed App
 supported_apps = ["Fire-Hazard-Detector-Firmware-181-OctalPSRAM",
-                  "Fire-Hazard-Detector-Firmware-181-QuadPSRAM"  ]
+                  "Fire-Hazard-Detector-Firmware-181-QuadPSRAM"，
+                  "SenXorESP32S3-R225"]
 
 
 [Fire-Hazard-Detector-Firmware-181-OctalPSRAM]
@@ -21,3 +22,9 @@ image.esp32s3 = "FireHazardDetector/FireHazardDetectorFW_V1_81_OPSRAM.bin"
 chipsets = ["ESP32S3"]
 # Configure the name of the binary file
 image.esp32s3 = "FireHazardDetector/FireHazardDetectorFW_V1_81_QPSRAM.bin"
+
+[SenXorESP32S3-R225]
+# ESP32 Chipsets for which you have a supported Firmware App. Define a property for each supported chipset in the given format.
+chipsets = ["SenXorESP32S3-R225"]
+# Configure the name of the binary file
+image.esp32s3 = "FireHazardDetector/senxorESP32S3_R2_25.bin"
