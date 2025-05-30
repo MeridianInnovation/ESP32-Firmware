@@ -9,9 +9,11 @@ firmware_images_url = "https://meridianinnovation.github.io/ESP32-Firmware/image
 supported_apps = ["Fire-Hazard-Detector-Firmware-181-OctalPSRAM",
                   "Fire-Hazard-Detector-Firmware-181-QuadPSRAM",
                   "SenXorESP32S3-3MLib-R225",
-                  "SenXorESP32S3-4MLib-R225",
                   "SenXorESP32S3-3MLib-R226",
+				  "SenXorESP32S3-3MLib-R227",
+                  "SenXorESP32S3-4MLib-R225",
                   "SenXorESP32S3-4MLib-R226",
+                  "SenXorESP32S3-4MLib-R227",
                   "XPRO-WIFI"]
 
 
