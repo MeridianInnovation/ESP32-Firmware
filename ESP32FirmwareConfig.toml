@@ -33,12 +33,17 @@ chipsets = ["ESP32S3"]
 # Configure the name of the binary file
 image.esp32s3 = "TCP_Demo/senxorESP32S3_3MLib_R2_25.bin"
 
-
 [SenXorESP32S3-3MLib-R226]
 # ESP32 Chipsets for which you have a supported Firmware App. Define a property for each supported chipset in the given format.
 chipsets = ["ESP32S3"]
 # Configure the name of the binary file
 image.esp32s3 = "TCP_Demo/senxorESP32S3_3MLib_R2_26.bin"
+
+[SenXorESP32S3-3MLib-R227]
+# ESP32 Chipsets for which you have a supported Firmware App. Define a property for each supported chipset in the given format.
+chipsets = ["ESP32S3"]
+# Configure the name of the binary file
+image.esp32s3 = "TCP_Demo/senxorESP32S3_3MLib_R2_27.bin"
 
 [SenXorESP32S3-4MLib-R225]
 # ESP32 Chipsets for which you have a supported Firmware App. Define a property for each supported chipset in the given format.
@@ -51,6 +56,12 @@ image.esp32s3 = "TCP_Demo/senxorESP32S3_4MLib_R2_25.bin"
 chipsets = ["ESP32S3"]
 # Configure the name of the binary file
 image.esp32s3 = "TCP_Demo/senxorESP32S3_4MLib_R2_26.bin"
+
+[SenXorESP32S3-4MLib-R227]
+# ESP32 Chipsets for which you have a supported Firmware App. Define a property for each supported chipset in the given format.
+chipsets = ["ESP32S3"]
+# Configure the name of the binary file
+image.esp32s3 = "TCP_Demo/senxorESP32S3_4MLib_R2_27.bin"
 
 [XPRO-WIFI]
 # ESP32 Chipsets for which you have a supported Firmware App. Define a property for each supported chipset in the given format.
